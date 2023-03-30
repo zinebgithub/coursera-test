@@ -1,1 +1,103 @@
+@media (min-width: 992px) {
+  /* Styles for each section */
+  .section {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
 
+  /* Styles for section titles */
+  .section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for the first two sections */
+  .section:nth-child(1),
+  .section:nth-child(2) {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
+
+  /* Styles for the third section */
+  .section:nth-child(3) {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
+
+  /* Styles for section titles */
+  .section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
+  .section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
+  .section-title {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+    float: none;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+  }
+}
