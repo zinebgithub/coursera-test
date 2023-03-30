@@ -1,41 +1,43 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
 .navbar{
 
 border: none;
 background-color: black;
-color: #61122F;
+color: violet;
 }
 body{
-	background-color: #61122F;
-	color: white;
+	background-color: purple;
+	color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .glyphicon{
-	font-size: 30px;
-	color:#61122F; 
+	font-size: 50px;
+	color:yellowgreen; 
 }
 
 .center{
-	width: 90%;
-	background-color: grey;
+	width: 100%;
+	background-color: magenta;
 
 }
 .container
 {
-	background-color: grey;
+	background-color: magenta;
 }
 .text-center{
-	font-size: 30px;
+	font-size: 50px;
+  background-color: blueviolet;
+  font-size: larger;
+  border-style: dashed;
+  border-color: black;
 }
 
 h2{
 	text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: bold;
 }
 #myNavbar ul li a {
-	color: #61122F;
+	color: yellowgreen;
 }
 .navbar-brand{
 font-size: 30px;	
